@@ -1,4 +1,4 @@
-import 'dart:math';
+// ignore_for_file: unnecessary_null_comparison
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -69,7 +69,7 @@ class _TransactionFormState extends State<TransactionForm> {
                 labelText: 'Valor (R\$)',
               ),
             ),
-            Container(
+            SizedBox(
               height: 70,
               child: Row(
                 children: [
